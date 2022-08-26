@@ -1,35 +1,42 @@
 [
     {
+        "id":"1",
         "img":"./images/r8.jpg",
         "name":"Chicken Curry",
         "price":200
     },
     {
+        "id":"2",
         "img":"./images/r7.jpg",
         "name":"Fish Curry",
         "price":200
     },
     {
+        "id":"3",
         "img":"./images/r6.jpg",
         "name":"Chocolate Butter",
         "price":200
     },
     {
+        "id":"4",
         "img":"./images/r5.jpg",
         "name":"Chicken Sukha",
         "price":200
     },
     {
+        "id":"5",
         "img":"./images/r4.jpg",
         "name":"Matar panir",
         "price":200
     },
     {
+        "id":"6",
         "img":"./images/r3.jpg",
         "name":"Daal Aalu",
         "price":200
     },
     {
+        "id":"7",
         "img":"./images/r2.jpg",
         "name":"Chicken + Egg fry",
         "price":200
