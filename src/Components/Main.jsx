@@ -11,11 +11,12 @@ const Main = (props) => {
 
 
   return (
-    <div className='grid grid-cols-4 gap-3 mt-0 pb-3 pr-2'>
+    <div className='grid grid-cols-4 gap-3 mt-0 pb-3 pr-2 d-print-none overflow-auto hid'>
       {
         data.map((data, key) => {
           return (
-           <button>            <Menu key={key} name={data.name}
+           <button>         
+               <Menu key={key} name={data.name}
               data={data}
               img={data.img}
               handleChange={(data,count)=>handleChange(data,count)}

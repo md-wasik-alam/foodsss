@@ -28,18 +28,21 @@ function App() {
 
 
   }
+  const emptInvoice=()=>{
+    setOrderd([]);
+  }
 
   return (<>
     <Navbar />
-    <div className="flex bg-black w-full h-screen space-x-6 justify-between">
-      <div className=" flex flex-row w-1/6">
+    <div className="flex bg-black w-full h-screen space-x-6 justify-between py-2">
+      <div className=" flex flex-row w-1/6 d-print-none">
         <List />
       </div>
-      <div className="flex w-4/6 rounded-md ">
+      <div className="flex w-4/6 rounded-md d-print-none ">
         <Main handleChange={(data,count) => handleChange(data,count)} />
       </div>
-      <div className="bg-gray-700 flex flex-col w-2/6 h-5/6 ml-6 mt-3 rounded-xl">
-        <Invoice orderd={orderd} handleDelete={(data)=>handleDelete(data)} />
+      <div className="bg-gray-700 flex flex-col w-2/6 h-5/6 ml-6 mt-3 rounded-xl wi-100 ">
+        <Invoice orderd={orderd} handleDelete={(data)=>handleDelete(data)} emptInvoice={emptInvoice} />
       </div>
     </div>
   </>

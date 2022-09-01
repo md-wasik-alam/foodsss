@@ -3,7 +3,7 @@ import React from 'react'
 const List = () => {
   return (
     <>
-        <div className=" w-full flex flex-col">
+        <div className=" w-full flex flex-col d-print-none">
             <div className="w-full">
                 <div className="text-center font-bold text-orange-500 p-3 hover:bg-gray-900 rounded-tl-3xl rounded-br-3xl bg-gray-800 ">All Products</div>
                 <ul className=''>
